@@ -1,0 +1,22 @@
+/*  Universal selector */
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial', sans-serif;
+    text-align: center;
+}
+
+body {
+    color: white;
+}
+
+.bg-img {
+    background-image: url('../images/station2.jpg');
+}
+
+.bg-orange-b {
+    background-color: #f67500;
+}
+
+

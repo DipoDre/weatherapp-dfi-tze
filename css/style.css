@@ -9,14 +9,26 @@
 
 body {
     color: white;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
 }
 
 .bg-img {
     background-image: url('../images/station2.jpg');
 }
 
-.bg-orange-b {
+/* update */
+.bg-orange-b, #get-weather:focus {
     background-color: #f67500;
+    box-shadow: none !important;
 }
 
+/* update */
+#city-input:focus, #country-input:focus {
+    box-shadow: none !important;
+}
+
+.alert {
+    margin: 0 auto;
+}
 
